@@ -1,3 +1,24 @@
 {
-  "id": "did:web:ashleythedeveloper.github.io:agtrace"
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/v2",
+    "https://w3id.org/security/suites/secp256k1recovery-2020/v2"
+  ],
+  "id": "did:web:ashleythedeveloper.github.io:agtrace",
+  "verificationMethod": [
+    {
+      "id": "did:web:ashleythedeveloper.github.io:agtrace#04236d6576da99b45fdf385f6778ff74a1361004cb2731eba9229a818a309d5660fcd698f29a491995d1aa164b19537f454be4c9cabf7c55adf2626ea66edef062",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "controller": "did:web:ashleythedeveloper.github.io:agtrace",
+      "publicKeyHex": "04236d6576da99b45fdf385f6778ff74a1361004cb2731eba9229a818a309d5660fcd698f29a491995d1aa164b19537f454be4c9cabf7c55adf2626ea66edef062"
+    }
+  ],
+  "authentication": [
+    "did:web:ashleythedeveloper.github.io:agtrace#04236d6576da99b45fdf385f6778ff74a1361004cb2731eba9229a818a309d5660fcd698f29a491995d1aa164b19537f454be4c9cabf7c55adf2626ea66edef062"
+  ],
+  "assertionMethod": [
+    "did:web:ashleythedeveloper.github.io:agtrace#04236d6576da99b45fdf385f6778ff74a1361004cb2731eba9229a818a309d5660fcd698f29a491995d1aa164b19537f454be4c9cabf7c55adf2626ea66edef062"
+  ],
+  "keyAgreement": [],
+  "service": []
 }
