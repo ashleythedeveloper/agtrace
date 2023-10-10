@@ -1,6 +1,7 @@
 {
   "@context": {
     "@version": 1.1,
+    "@vocab": "https://www.w3.org/ns/credentials/issuer-dependent#",
     "Person": {
       "@id": "https://jargon.sh/user/ashleythedeveloper/Test/v/working/artefacts/jsonld/ashleythedeveloperTest.jsonld#Person",
       "@context": {
