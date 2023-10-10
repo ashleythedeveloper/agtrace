@@ -2,7 +2,8 @@
   "@context": [
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/v2",
-    "https://w3id.org/security/suites/secp256k1recovery-2020/v2"
+    "https://w3id.org/security/suites/secp256k1recovery-2020/v2",
+    "https://w3id.org/security/suites/jws-2020/v1"
   ],
   "id": "did:web:ashleythedeveloper.github.io:agtrace",
   "verificationMethod": [
@@ -11,13 +12,45 @@
       "type": "EcdsaSecp256k1VerificationKey2019",
       "controller": "did:web:ashleythedeveloper.github.io:agtrace",
       "publicKeyHex": "04dd9a34f4c750fd7fb35fb2201abb0aae777b810f4ec7c9e60e185ea220e7c57c9eff0250a7b78ba68358a9a72d667a73a2626e731d0dea213d8778a56b81845d"
+    },
+    {
+      "id": "did:web:ashleythedeveloper.github.io:agtrace#04ee8df9a0f3b3ecd2929dd7ca1b59fea534b59fc8a7e105963a1da0bff2bb52a4eb068c361ed4a2407d32e8163948669bc6c3c307cf3d430f69eaa47473d3789e",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "controller": "did:web:ashleythedeveloper.github.io:agtrace",
+      "publicKeyHex": "04ee8df9a0f3b3ecd2929dd7ca1b59fea534b59fc8a7e105963a1da0bff2bb52a4eb068c361ed4a2407d32e8163948669bc6c3c307cf3d430f69eaa47473d3789e"
+    },
+    {
+      "id": "did:web:ashleythedeveloper.github.io:agtrace#7b828bc3ed634e3d5cb7df619176ef95cc9ac7def2f97d7d2410d73728e244b9-key-0",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:ashleythedeveloper.github.io:agtrace",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "e4KLw-1jTj1ct99hkXbvlcyax97y-X19JBDXNyjiRLk"
+      }
+    },
+    {
+      "id": "did:web:ashleythedeveloper.github.io:agtrace#7b828bc3ed634e3d5cb7df619176ef95cc9ac7def2f97d7d2410d73728e244b9-key-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:ashleythedeveloper.github.io:agtrace",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "X25519",
+        "x": "2IFQLg-gDjnWiO4gylc1Y4AmCoBdfrlH5Ci5fXkrLkw"
+      }
     }
   ],
   "authentication": [
-    "did:web:ashleythedeveloper.github.io:agtrace#04dd9a34f4c750fd7fb35fb2201abb0aae777b810f4ec7c9e60e185ea220e7c57c9eff0250a7b78ba68358a9a72d667a73a2626e731d0dea213d8778a56b81845d"
+    "did:web:ashleythedeveloper.github.io:agtrace#04dd9a34f4c750fd7fb35fb2201abb0aae777b810f4ec7c9e60e185ea220e7c57c9eff0250a7b78ba68358a9a72d667a73a2626e731d0dea213d8778a56b81845d",
+    "did:web:ashleythedeveloper.github.io:agtrace#04ee8df9a0f3b3ecd2929dd7ca1b59fea534b59fc8a7e105963a1da0bff2bb52a4eb068c361ed4a2407d32e8163948669bc6c3c307cf3d430f69eaa47473d3789e",
+    "did:web:ashleythedeveloper.github.io:agtrace#7b828bc3ed634e3d5cb7df619176ef95cc9ac7def2f97d7d2410d73728e244b9-key-0",
+    "did:web:ashleythedeveloper.github.io:agtrace#7b828bc3ed634e3d5cb7df619176ef95cc9ac7def2f97d7d2410d73728e244b9-key-1"
   ],
   "assertionMethod": [
-    "did:web:ashleythedeveloper.github.io:agtrace#04dd9a34f4c750fd7fb35fb2201abb0aae777b810f4ec7c9e60e185ea220e7c57c9eff0250a7b78ba68358a9a72d667a73a2626e731d0dea213d8778a56b81845d"
+    "did:web:ashleythedeveloper.github.io:agtrace#04dd9a34f4c750fd7fb35fb2201abb0aae777b810f4ec7c9e60e185ea220e7c57c9eff0250a7b78ba68358a9a72d667a73a2626e731d0dea213d8778a56b81845d",
+    "did:web:ashleythedeveloper.github.io:agtrace#04ee8df9a0f3b3ecd2929dd7ca1b59fea534b59fc8a7e105963a1da0bff2bb52a4eb068c361ed4a2407d32e8163948669bc6c3c307cf3d430f69eaa47473d3789e",
+    "did:web:ashleythedeveloper.github.io:agtrace#7b828bc3ed634e3d5cb7df619176ef95cc9ac7def2f97d7d2410d73728e244b9-key-0",
+    "did:web:ashleythedeveloper.github.io:agtrace#7b828bc3ed634e3d5cb7df619176ef95cc9ac7def2f97d7d2410d73728e244b9-key-1"
   ],
   "keyAgreement": [],
   "service": []
