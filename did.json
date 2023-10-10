@@ -1,30 +1,24 @@
 {
-  "didDocumentMetadata": {},
-  "didResolutionMetadata": {
-    "contentType": "application/did+ld+json"
-  },
-  "didDocument": {
-    "@context": [
-      "https://www.w3.org/ns/did/v1",
-      "https://w3id.org/security/v2",
-      "https://w3id.org/security/suites/secp256k1recovery-2020/v2"
-    ],
-    "id": "did:web:ashleythedeveloper.github.io:agtrace",
-    "verificationMethod": [
-      {
-        "id": "did:web:ashleythedeveloper.github.io:agtrace#04d0d02787f519ecdafff5c4da5fda610be6bffe32053de3b080044bd951c7011a72ee353ae69e57274247113aa30079f04df42edcaffec937ec8df71aaa63bd41",
-        "type": "EcdsaSecp256k1VerificationKey2019",
-        "controller": "did:web:ashleythedeveloper.github.io:agtrace",
-        "publicKeyHex": "04d0d02787f519ecdafff5c4da5fda610be6bffe32053de3b080044bd951c7011a72ee353ae69e57274247113aa30079f04df42edcaffec937ec8df71aaa63bd41"
-      }
-    ],
-    "authentication": [
-      "did:web:ashleythedeveloper.github.io:agtrace#04d0d02787f519ecdafff5c4da5fda610be6bffe32053de3b080044bd951c7011a72ee353ae69e57274247113aa30079f04df42edcaffec937ec8df71aaa63bd41"
-    ],
-    "assertionMethod": [
-      "did:web:ashleythedeveloper.github.io:agtrace#04d0d02787f519ecdafff5c4da5fda610be6bffe32053de3b080044bd951c7011a72ee353ae69e57274247113aa30079f04df42edcaffec937ec8df71aaa63bd41"
-    ],
-    "keyAgreement": [],
-    "service": []
-  }
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/v2",
+    "https://w3id.org/security/suites/secp256k1recovery-2020/v2"
+  ],
+  "id": "did:web:ashleythedeveloper.github.io:agtrace",
+  "verificationMethod": [
+    {
+      "id": "did:web:ashleythedeveloper.github.io:agtrace#04d0d02787f519ecdafff5c4da5fda610be6bffe32053de3b080044bd951c7011a72ee353ae69e57274247113aa30079f04df42edcaffec937ec8df71aaa63bd41",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "controller": "did:web:ashleythedeveloper.github.io:agtrace",
+      "publicKeyHex": "04d0d02787f519ecdafff5c4da5fda610be6bffe32053de3b080044bd951c7011a72ee353ae69e57274247113aa30079f04df42edcaffec937ec8df71aaa63bd41"
+    }
+  ],
+  "authentication": [
+    "did:web:ashleythedeveloper.github.io:agtrace#04d0d02787f519ecdafff5c4da5fda610be6bffe32053de3b080044bd951c7011a72ee353ae69e57274247113aa30079f04df42edcaffec937ec8df71aaa63bd41"
+  ],
+  "assertionMethod": [
+    "did:web:ashleythedeveloper.github.io:agtrace#04d0d02787f519ecdafff5c4da5fda610be6bffe32053de3b080044bd951c7011a72ee353ae69e57274247113aa30079f04df42edcaffec937ec8df71aaa63bd41"
+  ],
+  "keyAgreement": [],
+  "service": []
 }
