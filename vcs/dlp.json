@@ -1,0 +1,61 @@
+{
+  "id": "VC id",
+  "issuedBy": {
+    "id": "https://agtracefarms.com.au/",
+    "name": "AgTrace Farms"
+  },
+  "herd": {
+    "batchId": "",
+    "NLIS": ["ND250250CBDC2345"],
+    "manufacturedAt": {
+      "id": "",
+      "name": "",
+      "operatedBy": {
+        "id": "",
+        "name": ""
+      }
+    },
+    "manufacturedDate": "",
+    "provenance": [
+      {
+        "country": "",
+        "percentage": 100
+      }
+    ],
+    "batchQrCode": "",
+    "sustainabilityInfo": [
+      {
+        "Topic": "environment.deforestation",
+        "Criteria": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023R1115",
+        "Evidence": "https://deforestation-free.com/farm/00001",
+        "metric": [
+          {
+            "Metric": "https://showthething.com/unit-of-measure/environment/deforestation#canopy-cover",
+            "Value": 30,
+            "Unit": "m2/km2"
+          }
+        ],
+        "compliance": true
+      }
+    ],
+    "traceabilityInfo": [
+      {
+        "EventReference": "https://resolver.showthething.com/01/9359502000034/10/2023090202001",
+        "EventType": "Transformation"
+      }
+    ]
+  },
+  "breed": {
+    "productId": "NLISID",
+    "breed": "Braford",
+    "productClass": "",
+    "image": "",
+    "description": "",
+    "manufacturer": {
+      "id": "",
+      "name": ""
+    }
+  },
+  "sustainabilityScore": 60,
+  "trustScore": 20
+}
