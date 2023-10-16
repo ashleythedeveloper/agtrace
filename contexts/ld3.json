@@ -5,10 +5,7 @@
     },
     "https://www.w3.org/ns/odrl.jsonld",
     {
-      "name": {
-        "@id": "https://example.com/vocab/#name",
-        "@container": "@list"
-      }
+      "name": "@set"
     }
   ]
 }
