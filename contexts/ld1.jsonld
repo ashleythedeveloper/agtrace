@@ -2,24 +2,21 @@
   "@context": {
     "@version": 1.1,
     "@protected": true,
-    "ParticipantCredential": {
-      "@id": "https://sphereon-opensource.github.io/vc-contexts/fma/gaia-x#ParticipantCredential",
+    "TransformEvent": {
+      "@id": "https://w3id.org/traceability#TransformEvent",
       "@context": {
-        "@version": 1.1,
-        "@protected": true,
-        "id": "@id",
-        "type": "@type",
-        "hash": "http://schema.org/identifier"
-      }
-    },
-    "ServiceOfferingCredentialExperimental": {
-      "@id": "https://sphereon-opensource.github.io/vc-contexts/fma/gaia-x#ServiceOfferingCredentialExperimental",
-      "@context": {
-        "@version": 1.1,
-        "@protected": true,
-        "id": "@id",
-        "type": "@type",
-        "hash": "http://schema.org/identifier"
+        "place": {
+          "@id": "https://schema.org/Place"
+        },
+        "organization": {
+          "@id": "https://w3id.org/traceability#Organization"
+        },
+        "newProducts": {
+          "@id": "https://w3c-ccg.github.io/hashlink/#hl-url-params"
+        },
+        "consumedProducts": {
+          "@id": "https://w3c-ccg.github.io/hashlink/#hl-url-params"
+        }
       }
     }
   }
