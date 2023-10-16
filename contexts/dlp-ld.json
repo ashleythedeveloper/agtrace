@@ -1,0 +1,111 @@
+{
+  "@context": [
+    {
+      "@version": 1.1
+    },
+    "https://www.w3.org/ns/odrl.jsonld",
+    {
+      "issuedBy": {
+        "@id": "xsd:string",
+        "@context": {
+          "name": "xsd:string"
+        }
+      },
+      "herd": {
+        "@id": "xsd:string",
+        "context": {
+          "batchId": "xsd:string",
+          "manufacturedDate": "xsd:string",
+          "manufacturedAt": "xsd:string",
+          "NLIS": "@set",
+          "batchQrCode": "xsd:string",
+          "traceabilityInfo": {
+            "@id": "xsd:string",
+            "@container": "@list",
+            "@context": [
+              {
+                "@id": "xsd:string",
+                "@context": {
+                  "EventReference": "xsd:string",
+                  "EventType": "xsd:string"
+                }
+              }
+            ]
+          },
+          "sustainabilityInfo": {
+            "@id": "xsd:string",
+            "@container": "@list",
+            "@context": [
+              {
+                "@id": "xsd:string",
+                "@context": {
+                  "Topic": "xsd:string",
+                  "Criteria": "xsd:string",
+                  "Evidence": "xsd:string",
+                  "metric": {
+                    "@id": "xsd:string",
+                    "@container": "@list",
+                    "@context": [
+                      {
+                        "@id": "xsd:string",
+                        "@context": {
+                          "Metric": "xsd:string",
+                          "Value": "xsd:integer",
+                          "Unit": "xsd:string"
+                        }
+                      }
+                    ]
+                  },
+                  "compliance": "xsd:boolean"
+                }
+              }
+            ]
+          },
+          "provenance": {
+            "@id": "xsd:string",
+            "@container": "@list",
+            "@context": [
+              {
+                "@id": "xsd:string",
+                "@context": {
+                  "country": "xsd:string",
+                  "percentage": "xsd:integer"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "caretaker": {
+        "@id": "xsd:string",
+        "@context": {
+          "name": "xsd:string",
+          "operatedBy": {
+            "@id": "xsd:string",
+            "@context": {
+              "name": "xsd:string"
+            }
+          }
+        }
+      },
+      "breed": {
+        "@id": "xsd:string",
+        "@context": {
+          "productId": "xds:string",
+          "manufacturer": {
+            "@id": "xsd:string",
+            "@context": {
+              "name": "xsd:string"
+            }
+          },
+          "description": "xds:string",
+          "image": "xds:string",
+          "productClass": "xds:string"
+        },
+        "breed": "xds:string"
+      },
+      "sustainabilityScore": "xsd:integer",
+      "trustScore": "xsd:integer"
+    }
+  ]
+}
