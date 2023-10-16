@@ -76,22 +76,11 @@
           }
         }
       },
-      "caretaker": {
-        "@id": "xsd:string",
-        "@context": {
-          "name": "xsd:string",
-          "operatedBy": {
-            "@id": "xsd:string",
-            "@context": {
-              "name": "xsd:string"
-            }
-          }
-        }
-      },
       "breed": {
         "@id": "xsd:string",
         "@context": {
           "productId": "xds:string",
+          "breed": "xds:string",
           "manufacturer": {
             "@id": "xsd:string",
             "@context": {
@@ -101,8 +90,7 @@
           "description": "xds:string",
           "image": "xds:string",
           "productClass": "xds:string"
-        },
-        "breed": "xds:string"
+        }
       },
       "sustainabilityScore": "xsd:integer",
       "trustScore": "xsd:integer"
