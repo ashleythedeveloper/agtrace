@@ -13,7 +13,7 @@
       },
       "herd": {
         "@id": "xsd:string",
-        "context": {
+        "@context": {
           "batchId": "xsd:string",
           "manufacturedDate": "xsd:string",
           "manufacturedAt": "xsd:string",
