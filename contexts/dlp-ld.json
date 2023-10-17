@@ -16,7 +16,18 @@
         "@context": {
           "batchId": "xsd:string",
           "manufacturedDate": "xsd:string",
-          "manufacturedAt": "xsd:string",
+          "manufacturedAt": {
+            "@id": "xsd:string",
+            "@context": {
+              "name": "xsd:string",
+              "operatedBy": {
+                "@id": "xsd:string",
+                "@context": {
+                  "name": "xsd:string"
+                }
+              }
+            }
+          },
           "NLIS": {
             "@id": "xsd:string",
             "@container": "@list"
