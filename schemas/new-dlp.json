@@ -1,0 +1,181 @@
+{
+  "schema": {
+    "type": "object",
+    "properties": {
+      "herd": {
+        "type": "object",
+        "title": "Herd",
+        "properties": {
+          "batchId": {
+            "type": "string",
+            "title": "Batch ID"
+          },
+          "NLIS": {
+            "type": "array",
+            "title": "NLIS",
+            "items": {
+              "type": "string"
+            }
+          },
+          "manufacturedAt": {
+            "type": "object",
+            "title": "Manufactured At",
+            "properties": {
+              "id": {
+                "type": "string",
+                "title": "ID"
+              },
+              "name": {
+                "type": "string",
+                "title": "Name"
+              },
+              "operatedBy": {
+                "type": "object",
+                "title": "Operated By",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "title": "ID"
+                  },
+                  "name": {
+                    "type": "string",
+                    "title": "Name"
+                  }
+                }
+              }
+            }
+          },
+          "provenance": {
+            "type": "array",
+            "title": "Provenance",
+            "items": {
+              "type": "object",
+              "properties": {
+                "country": {
+                  "type": "string",
+                  "title": "Country"
+                },
+                "percentage": {
+                  "type": "integer",
+                  "title": "Percentage"
+                }
+              }
+            }
+          },
+          "sustainabilityInfo": {
+            "type": "array",
+            "title": "Sustainability Information",
+            "items": {
+              "type": "object",
+              "properties": {
+                "Topic": {
+                  "type": "string",
+                  "title": "Topic"
+                },
+                "Criteria": {
+                  "type": "string",
+                  "title": "Criteria"
+                },
+                "Evidence": {
+                  "type": "string",
+                  "title": "Evidence"
+                },
+                "metric": {
+                  "type": "array",
+                  "title": "Metric",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "Metric": {
+                        "type": "string",
+                        "title": "Metric"
+                      },
+                      "Value": {
+                        "type": "integer",
+                        "title": "Value"
+                      },
+                      "Unit": {
+                        "type": "string",
+                        "title": "Unit"
+                      }
+                    }
+                  }
+                },
+                "compliance": {
+                  "type": "boolean",
+                  "title": "Compliance"
+                }
+              }
+            }
+          },
+          "traceabilityInfo": {
+            "type": "array",
+            "title": "Traceability Information",
+            "items": {
+              "type": "object",
+              "properties": {
+                "EventReference": {
+                  "type": "string",
+                  "title": "Event Reference"
+                },
+                "EventType": {
+                  "type": "string",
+                  "title": "Event Type"
+                }
+              }
+            }
+          }
+        }
+      },
+      "breed": {
+        "type": "object",
+        "title": "Breed",
+        "properties": {
+          "productId": {
+            "type": "string",
+            "title": "Product ID"
+          },
+          "breed": {
+            "type": "string",
+            "title": "Breed"
+          },
+          "productClass": {
+            "type": "string",
+            "title": "Product Class"
+          },
+          "image": {
+            "type": "string",
+            "title": "Image"
+          },
+          "description": {
+            "type": "string",
+            "title": "Description"
+          },
+          "manufacturer": {
+            "type": "object",
+            "title": "Manufacturer",
+            "properties": {
+              "id": {
+                "type": "string",
+                "title": "ID"
+              },
+              "name": {
+                "type": "string",
+                "title": "Name"
+              }
+            }
+          }
+        }
+      },
+      "sustainabilityScore": {
+        "type": "integer",
+        "title": "Sustainability Score"
+      },
+      "trustScore": {
+        "type": "integer",
+        "title": "Trust Score"
+      }
+    }
+  },
+  "uischema": {}
+}

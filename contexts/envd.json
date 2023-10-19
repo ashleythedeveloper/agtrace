@@ -1,0 +1,72 @@
+{
+  "@context": [
+    {
+      "@version": 1.1
+    },
+    "https://www.w3.org/ns/odrl.jsonld",
+    {
+      "pdfUrl": "xsd:string",
+      "number": "xsd:string",
+      "consignmentNumber": "xsd:string",
+      "forms": {
+        "@id": "xsd:string",
+        "@container": "@list",
+        "@context": [
+          {
+            "@id": "xsd:string",
+            "@context": {
+              "serialNumber": "xsd:string",
+              "type": "xsd:string"
+            }
+          }
+        ]
+      },
+      "movementDate": "xsd:string",
+      "movementTime": "xsd:string",
+      "createdAt": "xsd:string",
+      "updatedAt": "xsd:string",
+      "submittedAt": "xsd:string",
+      "consignee": {
+        "@id": "xsd:string",
+        "@context": {
+          "name": "xsd:string"
+        }
+      },
+      "declaration": {
+        "@id": "xsd:string",
+        "@context": {
+          "accept": "xsd:boolean",
+          "fullName": "xsd:string",
+          "phone": "xsd:string",
+          "date": "xsd:string",
+          "signature": "xsd:string",
+          "address": {
+            "@id": "xsd:string",
+            "@context": {
+              "line1": "xsd:string",
+              "town": "xsd:string",
+              "state": "xsd:string",
+              "postcode": "xsd:string"
+            }
+          },
+          "email": "xsd:string",
+          "certificateNumber": "xsd:string"
+        }
+      },
+      "answers": {
+        "@id": "xsd:string",
+        "@container": "@list",
+        "@context": [
+          {
+            "@id": "xsd:string",
+            "@context": {
+              "questionId": "xsd:string",
+              "value": "xsd:string",
+              "index": "xsd:integer"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
