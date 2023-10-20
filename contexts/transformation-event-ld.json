@@ -1,0 +1,13 @@
+{
+  "eventID": "",
+  "eventType": "",
+  "eventTime": "",
+  "actionCode": "",
+  "dispositionCode": "",
+  "businessStepCode": "",
+  "readPointId": "",
+  "locationId": "",
+  "processType": "string",
+  "inputItemList": [{ "itemID": "", "name": "" }],
+  "outputItemList": [{ "itemID": "", "name": "" }]
+}

@@ -26,10 +26,18 @@
       "createdAt": "xsd:string",
       "updatedAt": "xsd:string",
       "submittedAt": "xsd:string",
-      "consignee": {
+      "origin": {
         "@id": "xsd:string",
         "@context": {
-          "name": "xsd:string"
+          "name": "xsd:string",
+          "pic": "xsd:string"
+        }
+      },
+      "destination": {
+        "@id": "xsd:string",
+        "@context": {
+          "name": "xsd:string",
+          "pic": "xsd:string"
         }
       },
       "declaration": {
