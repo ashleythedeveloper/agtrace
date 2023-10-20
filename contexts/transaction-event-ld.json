@@ -1,0 +1,53 @@
+{
+  "@context": [
+    {
+      "@version": 1.1
+    },
+    "https://www.w3.org/ns/odrl.jsonld",
+    {
+      "sourceParty": {
+        "@id": "xsd:string",
+        "@context": {
+          "partyID": "xsd:string",
+          "name": "xsd:string"
+        }
+      },
+      "destinationParty": {
+        "@id": "xsd:string",
+        "@context": {
+          "partyID": "xsd:string",
+          "name": "xsd:string"
+        }
+      },
+      "transaction": {
+        "@id": "xsd:string",
+        "@context": {
+          "type": "xsd:string",
+          "identifier": "xsd:string",
+          "documentURL": "xsd:string"
+        }
+      },
+      "itemList": {
+        "@id": "xsd:string",
+        "@container": "@list",
+        "@context": [
+          {
+            "@id": "xsd:string",
+            "@context": {
+              "itemID": "xsd:string",
+              "name": "xsd:string"
+            }
+          }
+        ]
+      },
+      "eventID": "xsd:string",
+      "eventType": "xsd:string",
+      "eventTime": "xsd:string",
+      "actionCode": "xsd:string",
+      "dispositionCode": "xsd:string",
+      "businessStepCode": "xsd:string",
+      "readPointId": "xsd:string",
+      "locationId": "xsd:string"
+    }
+  ]
+}
