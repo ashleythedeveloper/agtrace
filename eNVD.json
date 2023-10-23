@@ -1,20 +1,25 @@
 {
-  "pdfUrl": "https://api.envd.uat.integritysystems.com.au/api/v3/vendordeclaration/consignments/C-101507451/$print?authToken=CfDJ8Cj2KovPNzREtqzsje3SqEciXBi_7Jq1TMMPrGV7ZkgcRvWf-UppMJB9VFx5KvJc3hnnTdwYpaHUvTpO1z0DybZP60G1bGWg1mYeOqntE0wOLH-jEqfxqs5fnoJObslqbg",
-  "number": "C-101507451",
-  "consignmentNumber": "C-101507451",
+  "pdfUrl": "https://api.envd.uat.integritysystems.com.au/api/v3/vendordeclaration/consignments/C-101507453/$print?authToken=CfDJ8Cj2KovPNzREtqzsje3SqEdlmhDZA7fQhq7FU2LUR0vI0ohPPYnKbgAHjrBiFOvVuxQhqk1xs5aRPcOh7bzs595J_UWViqqtOQKGIsqqTlbaihYm7pO7MN3Uj6gpDIGD_A",
+  "number": "C-101507453",
+  "consignmentNumber": "C-101507453",
   "forms": [
     {
-      "serialNumber": "41384820",
+      "serialNumber": "41384822",
       "type": "LPAC1"
     }
   ],
   "movementDate": "2023-06-10T00:00:00",
   "movementTime": "01:00",
-  "createdAt": "2023-10-20T05:57:35.0628093+00:00",
-  "updatedAt": "2023-10-20T05:57:36.8312143+00:00",
+  "createdAt": "2023-10-20T06:02:34.6738301+00:00",
+  "updatedAt": "2023-10-20T06:02:35.9020097+00:00",
   "submittedAt": null,
-  "consignee": {
-    "name": null
+  "origin": {
+    "name": "AgTrace farms",
+    "pic": "NH020188"
+  },
+  "destination": {
+    "name": "AgTrace processors",
+    "pic": "QBZZ2222"
   },
   "declaration": {
     "accept": true,

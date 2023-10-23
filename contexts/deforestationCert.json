@@ -1,0 +1,118 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "id": "xsd:string",
+    "description": "xsd:string",
+    "validFrom": "xsd:string",
+    "validTo": "xsd:string",
+    "scope": {
+      "@id": "xsd:string",
+      "@context": {
+        "id": "xsd:string",
+        "name": "xsd:string",
+        "dateOfIssue": "xsd:string",
+        "issuingBody": {
+          "@id": "xsd:string",
+          "@context": {
+            "id": "xsd:string",
+            "name": "xsd:string",
+            "type": "xsd:string"
+          }
+        },
+        "criteria": {
+          "@id": "xsd:string",
+          "@container": "@list",
+          "@context": {
+            "id": "xsd:string",
+            "description": "xsd:string",
+            "type": "xsd:string",
+            "validationService": "xsd:string"
+          }
+        }
+      }
+    },
+    "issuedBy": {
+      "@id": "xsd:string",
+      "@context": {
+        "id": "xsd:string",
+        "name": "xsd:string",
+        "type": "xsd:string"
+      }
+    },
+    "issuedTo": {
+      "@id": "xsd:string",
+      "@context": {
+        "id": "xsd:string",
+        "name": "xsd:string",
+        "type": "xsd:string"
+      }
+    },
+    "subjects": {
+      "@id": "xsd:string",
+      "@container": "@list",
+      "@context": {
+        "facilityID": "xsd:string"
+      }
+    },
+    "claims": {
+      "@id": "xsd:string",
+      "@container": "@list",
+      "@context": {
+        "scope": "xsd:string",
+        "threshold": {
+          "@id": "xsd:string",
+          "@context": {
+            "Metric": "xsd:string",
+            "Unit": "xsd:string",
+            "Value": "xsd:integer"
+          }
+        },
+        "metric": {
+          "@id": "xsd:string",
+          "@container": "@list",
+          "@context": {
+            "Metric": "xsd:string",
+            "Unit": "xsd:string",
+            "Value": "xsd:integer"
+          }
+        },
+        "evidence": {
+          "@id": "xsd:string",
+          "@context": {
+            "evidenceRootHash": "xsd:string",
+            "description": "xsd:string",
+            "evidenceData": {
+              "@id": "xsd:string",
+              "@container": "@list",
+              "@context": {
+                "fileHash": "xsd:string",
+                "fileLocation": "xsd:string",
+                "fileType": "xsd:string",
+                "inEncrypted": "xsd:boolean"
+              }
+            }
+          }
+        },
+        "snapshotDate": "xsd:string",
+        "decryptionKeyRequest": "xsd:string",
+        "compliance": "xsd:boolean"
+      }
+    },
+    "accreditation": {
+      "@id": "xsd:string",
+      "@context": {
+        "credential": "xsd:string",
+        "authority": {
+          "@id": "xsd:string",
+          "@context": {
+            "id": "xsd:string",
+            "name": "xsd:string",
+            "type": "xsd:string"
+          }
+        },
+        "validFrom": "xsd:string",
+        "validTo": "xsd:string"
+      }
+    }
+  }
+}
