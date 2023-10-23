@@ -1,7 +1,6 @@
 {
   "@context": {
     "@version": 1.1,
-    "id": "xsd:string",
     "description": "xsd:string",
     "validFrom": "xsd:string",
     "validTo": "xsd:string",
