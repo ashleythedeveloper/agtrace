@@ -1,21 +1,13 @@
 {
   "@context": {
     "@version": 1.1,
-    "@protected": true,
-    "TransformEvent": {
-      "@id": "https://w3id.org/traceability#TransformEvent",
+    "@protected": false,
+    "CredentialSubject": {
+      "@id": "@id",
       "@context": {
-        "place": {
-          "@id": "https://schema.org/Place"
-        },
-        "organization": {
-          "@id": "https://w3id.org/traceability#Organization"
-        },
         "newProducts": {
-          "@id": "https://w3c-ccg.github.io/hashlink/#hl-url-params"
-        },
-        "consumedProducts": {
-          "@id": "https://w3c-ccg.github.io/hashlink/#hl-url-params"
+          "@id": "https://w3c-ccg.github.io/hashlink/#hl-url-params",
+          "name": "xsd:string"
         }
       }
     }
