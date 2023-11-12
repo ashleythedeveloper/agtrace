@@ -3,7 +3,7 @@
     "@version": 1.1,
     "@protected": false,
     "CredentialSubject": {
-      "@id": "@id",
+      "@id": "http://mywebsite.com/myvocab#",
       "@context": {
         "newProducts": {
           "@id": "https://w3c-ccg.github.io/hashlink/#hl-url-params",
