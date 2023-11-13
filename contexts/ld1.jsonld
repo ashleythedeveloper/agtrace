@@ -4,7 +4,7 @@
       "@protected": true,
       "Employee": {
           "@id": "https://example.com#Employee",
-          "@type": "credentialSubject",
+          "@type": "https://www.w3.org/2018/credentials#credentialSubject",
           "@context": {
               "name": "xsd:string"
           }
