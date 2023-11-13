@@ -1,15 +1,13 @@
 {
   "@context": {
-    "@version": 1.1,
-    "@protected": false,
-    "CredentialSubject": {
-      "@id": "http://mywebsite.com/myvocab#",
-      "@context": {
-        "newProducts": {
-          "@id": "https://w3c-ccg.github.io/hashlink/#hl-url-params",
-          "name": "xsd:string"
-        }
+      "@version": 1.1,
+      "@protected": true,
+      "Employee": {
+          "@id": "https://example.com#Employee",
+          "@type": "credentialSubject",
+          "@context": {
+              "name": "xsd:string"
+          }
       }
-    }
   }
 }
